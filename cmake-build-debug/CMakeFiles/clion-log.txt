@@ -1,0 +1,10 @@
+/opt/clion-2019.3.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/pikalm/Projects/ESCA-master
+-- Found LLVM: 10.0.0
+-- Using LLVMConfig.cmake in: /usr/lib/llvm-10/cmake
+CMake Error at src/CMakeLists.txt:12 (target_link_libraries):
+  Cannot specify link libraries for target "CWE467" which is not built by
+  this project.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/pikalm/Projects/ESCA-master/CMakeFiles/CMakeOutput.log".

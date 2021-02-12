@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ESCA"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\llvm-10\;CMake Files\..\..\..\..\usr\lib\llvm-10\cmake\;CMake Files\..\..\..\..\usr\lib\llvm-10\lib\;CMake Files\..\..\..\..\usr\lib\llvm-10\lib\cmake\;CMake Files\..\..\..\..\usr\lib\llvm-10\lib\cmake\llvm\;CMake Files\..\..\..\..\usr\lib\llvm-10\lib\cmake\clang\;CMake Files\src\;CMake Files\src\AST\;CMake Files\src\CWE-467\;CMake Files\src\target\;CMake Files\src\SMT\;CMake Files\src\FSM\;CMake Files\src\utils\;CMake Files\tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/pikalm/Projects/ESCA-master"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/pikalm/Projects/ESCA-master"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/pikalm/Projects/ESCA-master"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="intrinsics_gen">
+				<Option working_dir="/home/pikalm/Projects/ESCA-master"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/Makefile&quot;  VERBOSE=1 intrinsics_gen"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clang-tablegen-targets">
+				<Option working_dir="/home/pikalm/Projects/ESCA-master"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/Makefile&quot;  VERBOSE=1 clang-tablegen-targets"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CWE467">
+				<Option output="/home/pikalm/Projects/ESCA-master/src/CWE467" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pikalm/Projects/ESCA-master/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DTEXT_DIAG"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/Makefile&quot;  VERBOSE=1 CWE467"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CWE467/fast">
+				<Option output="/home/pikalm/Projects/ESCA-master/src/CWE467" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pikalm/Projects/ESCA-master/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DTEXT_DIAG"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/Makefile&quot;  VERBOSE=1 CWE467/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ast">
+				<Option output="/home/pikalm/Projects/ESCA-master/src/AST/libast.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pikalm/Projects/ESCA-master/src/AST"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DTEXT_DIAG"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/home/pikalm/Projects/ESCA-master/src/AST/../utils"/>
+					<Add directory="/home/pikalm/Projects/ESCA-master/src/AST/../target"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/AST/Makefile&quot;  VERBOSE=1 ast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/AST/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/AST/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/AST/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ast/fast">
+				<Option output="/home/pikalm/Projects/ESCA-master/src/AST/libast.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pikalm/Projects/ESCA-master/src/AST"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DTEXT_DIAG"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/home/pikalm/Projects/ESCA-master/src/AST/../utils"/>
+					<Add directory="/home/pikalm/Projects/ESCA-master/src/AST/../target"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/AST/Makefile&quot;  VERBOSE=1 ast/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/AST/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/AST/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/AST/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cwe-467">
+				<Option output="/home/pikalm/Projects/ESCA-master/src/CWE-467/libcwe-467.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pikalm/Projects/ESCA-master/src/CWE-467"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DTEXT_DIAG"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/CWE-467/Makefile&quot;  VERBOSE=1 cwe-467"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/CWE-467/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/CWE-467/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/CWE-467/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cwe-467/fast">
+				<Option output="/home/pikalm/Projects/ESCA-master/src/CWE-467/libcwe-467.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pikalm/Projects/ESCA-master/src/CWE-467"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DTEXT_DIAG"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/CWE-467/Makefile&quot;  VERBOSE=1 cwe-467/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/CWE-467/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/CWE-467/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/CWE-467/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="target">
+				<Option output="/home/pikalm/Projects/ESCA-master/src/target/libtarget.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pikalm/Projects/ESCA-master/src/target"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DTEXT_DIAG"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/home/pikalm/Projects/ESCA-master/src/target/../FSM"/>
+					<Add directory="/home/pikalm/Projects/ESCA-master/src/target/../SMT"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/target/Makefile&quot;  VERBOSE=1 target"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/target/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/target/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/target/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="target/fast">
+				<Option output="/home/pikalm/Projects/ESCA-master/src/target/libtarget.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pikalm/Projects/ESCA-master/src/target"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DTEXT_DIAG"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/home/pikalm/Projects/ESCA-master/src/target/../FSM"/>
+					<Add directory="/home/pikalm/Projects/ESCA-master/src/target/../SMT"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/target/Makefile&quot;  VERBOSE=1 target/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/target/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/target/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/target/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="smt">
+				<Option output="/home/pikalm/Projects/ESCA-master/src/SMT/libsmt.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pikalm/Projects/ESCA-master/src/SMT"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DTEXT_DIAG"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/SMT/Makefile&quot;  VERBOSE=1 smt"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/SMT/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/SMT/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/SMT/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="smt/fast">
+				<Option output="/home/pikalm/Projects/ESCA-master/src/SMT/libsmt.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pikalm/Projects/ESCA-master/src/SMT"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DTEXT_DIAG"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/SMT/Makefile&quot;  VERBOSE=1 smt/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/SMT/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/SMT/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/SMT/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fsm">
+				<Option output="/home/pikalm/Projects/ESCA-master/src/FSM/libfsm.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pikalm/Projects/ESCA-master/src/FSM"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DTEXT_DIAG"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/FSM/Makefile&quot;  VERBOSE=1 fsm"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/FSM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/FSM/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/FSM/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fsm/fast">
+				<Option output="/home/pikalm/Projects/ESCA-master/src/FSM/libfsm.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pikalm/Projects/ESCA-master/src/FSM"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DTEXT_DIAG"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/FSM/Makefile&quot;  VERBOSE=1 fsm/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/FSM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/FSM/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/FSM/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utils">
+				<Option output="/home/pikalm/Projects/ESCA-master/src/utils/libutils.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pikalm/Projects/ESCA-master/src/utils"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DTEXT_DIAG"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/utils/Makefile&quot;  VERBOSE=1 utils"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utils/fast">
+				<Option output="/home/pikalm/Projects/ESCA-master/src/utils/libutils.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pikalm/Projects/ESCA-master/src/utils"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DTEXT_DIAG"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/utils/Makefile&quot;  VERBOSE=1 utils/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/src/utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_tests">
+				<Option output="/home/pikalm/Projects/ESCA-master/tests/run_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pikalm/Projects/ESCA-master/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DTEXT_DIAG"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/home/pikalm/Projects/ESCA-master/tests/../src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/tests/Makefile&quot;  VERBOSE=1 run_tests"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_tests/fast">
+				<Option output="/home/pikalm/Projects/ESCA-master/tests/run_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pikalm/Projects/ESCA-master/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DTEXT_DIAG"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/home/pikalm/Projects/ESCA-master/tests/../src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/tests/Makefile&quot;  VERBOSE=1 run_tests/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests">
+				<Option output="/home/pikalm/Projects/ESCA-master/tests/tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pikalm/Projects/ESCA-master/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DTEXT_DIAG"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/home/pikalm/Projects/ESCA-master/tests/../src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/tests/Makefile&quot;  VERBOSE=1 tests"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests/fast">
+				<Option output="/home/pikalm/Projects/ESCA-master/tests/tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pikalm/Projects/ESCA-master/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DTEXT_DIAG"/>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/home/pikalm/Projects/ESCA-master/tests/../src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/tests/Makefile&quot;  VERBOSE=1 tests/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pikalm/Projects/ESCA-master/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/AST/ASTWalker.cpp">
+			<Option target="ast"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/AST/ASTWalker.h">
+			<Option target="ast"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/AST/ESCAASTVisitor.cpp">
+			<Option target="ast"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/AST/ESCAASTVisitor.h">
+			<Option target="ast"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/CWE-467/Consumer.cpp">
+			<Option target="cwe-467"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/CWE-467/Consumer.h">
+			<Option target="cwe-467"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/CWE-467/Visitor.cpp">
+			<Option target="cwe-467"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/CWE-467/Visitor.h">
+			<Option target="cwe-467"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/FSM/FSM.cpp">
+			<Option target="fsm"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/FSM/FSM.h">
+			<Option target="fsm"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/FSM/StateFSM.cpp">
+			<Option target="fsm"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/FSM/StateFSM.h">
+			<Option target="fsm"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/SMT/BinarySMT.cpp">
+			<Option target="smt"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/SMT/BinarySMT.h">
+			<Option target="smt"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/SMT/VariableSMT.cpp">
+			<Option target="smt"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/SMT/VariableSMT.h">
+			<Option target="smt"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/SMT/VersionedVariable.cpp">
+			<Option target="smt"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/SMT/VersionedVariable.h">
+			<Option target="smt"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/main.cpp">
+			<Option target="CWE467"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/target/AnalyzeProcess.cpp">
+			<Option target="target"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/target/AnalyzeProcess.h">
+			<Option target="target"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/target/Context.cpp">
+			<Option target="target"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/target/Context.h">
+			<Option target="target"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/target/Statements.cpp">
+			<Option target="target"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/target/Statements.h">
+			<Option target="target"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/utils/DefectStorage.cpp">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/utils/DefectStorage.h">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/utils/common.cpp">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/utils/common.h">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/tests/examples/test4.cpp">
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/tests/run_tests.cpp">
+			<Option target="run_tests"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/../../../../usr/lib/llvm-10/cmake/LLVMConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\llvm-10\cmake\"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/../../../../usr/lib/llvm-10/cmake/LLVMConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\llvm-10\cmake\"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/../../../../usr/lib/llvm-10/lib/cmake/llvm/LLVM-Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\llvm-10\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/../../../../usr/lib/llvm-10/lib/cmake/llvm/LLVMExports-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\llvm-10\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/../../../../usr/lib/llvm-10/lib/cmake/llvm/LLVMExports.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\llvm-10\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/../../../../usr/lib/llvm-10/lib/cmake/clang/ClangConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\llvm-10\lib\cmake\clang\"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/../../../../usr/lib/llvm-10/lib/cmake/clang/ClangTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\llvm-10\lib\cmake\clang\"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/../../../../usr/lib/llvm-10/lib/cmake/clang/ClangTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\llvm-10\lib\cmake\clang\"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/AST/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\AST\"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/CWE-467/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\CWE-467\"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/target/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\target\"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/SMT/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\SMT\"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/FSM/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\FSM\"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/src/utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\utils\"/>
+		</Unit>
+		<Unit filename="/home/pikalm/Projects/ESCA-master/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

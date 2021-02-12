@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libsmt.so -o libsmt.so CMakeFiles/smt.dir/BinarySMT.cpp.o CMakeFiles/smt.dir/VariableSMT.cpp.o CMakeFiles/smt.dir/VersionedVariable.cpp.o 
