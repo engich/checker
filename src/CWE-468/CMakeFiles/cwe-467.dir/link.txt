@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libcwe-467.so -o libcwe-467.so CMakeFiles/cwe-467.dir/Consumer.cpp.o CMakeFiles/cwe-467.dir/Visitor.cpp.o 
